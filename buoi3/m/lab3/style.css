@@ -1,0 +1,45 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+        display:flex;
+    }
+    nav, header, footer,article, aside{
+    border: 1px solid gray;
+    }
+    nav{
+    background-color: aqua;
+    width: 30%;
+    height: 600px;;
+    }
+    header{
+    background-color: bisque;
+    height: 300px;
+    }
+    footer{
+    background-color: chocolate;
+
+    }
+    article{
+        background-color: crimson;
+        min-width: 400px;
+        width: 100%;
+    }
+    aside{
+        background-color: violet;
+        min-width: 100%;
+    }
+    main{
+        width: 70%;
+        height: 600px;
+        display: flex;
+    }
+    .content {
+        height: 500px;
+        display: flex;
+        flex-flow:row nowrap ;
+    }
+    .content .left{
+        width: 80%;
+        display: 60px;
+    }
