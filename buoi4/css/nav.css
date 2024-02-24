@@ -9,13 +9,29 @@ nav {
     height: 45px;
     color: white;
 }
+ nav{
+overflow: hidden;
+ }
+ nav ul li {
+    float:left;
+    display:block;
+    margin:0 15px;
+    padding: 5px 15px;
 
-nav a {
+ }
+ nav ul {
+    margin: 0 auto;
+}
+
+nav li,nav li a {
     text-decoration: none;
     color: white;
-    margin: 15px 0;
+    
+    list-style: none;
 }
-nav a:hover {
-    color: black;
+nav li:hover{
     background-color: white;
+}
+nav li a:hover {
+    color: black;
 }
